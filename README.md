@@ -7,14 +7,14 @@ Previous official Solidoodle firmware was based on early version of Marlin and c
 You need to have the Arduino0022 IDE installed. If you have a later version, you'll need to downgrade.
 
 PC Users: A version of Arduino022 already setup for this firmware is now available in the download section. Simply unzip into a folder of your choice.
-Skip to step 4. **Edit: I have accidentily deleted this, can someone provide a copy?
+Skip to step 4. **Edit: Github have depracated downloads, therefore this file is no longer available.
 
-MAC Users: Download from:
+Download from:
 
 -http://arduino.cc/hu/Main/Software
 
 
-#Step 2  (Mac only)
+#Step 2
 
 Clone the repository at
 
@@ -23,7 +23,7 @@ Clone the repository at
 and copy the included Sanguino directory to the hardware directory of your Arduino install. On Mac OS X, that would be ~/Documents/Arduino/hardware.
 
 
-#Step 3  (Mac Only)
+#Step 3
 
 Close the Arduino IDE and then copy the file avrdude.conf from the sanguino1284p clone to your ~/Documents/Arduino/hardware/tools/avr/etc.
 
