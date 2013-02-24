@@ -81,6 +81,8 @@
 // 51 is 100k thermistor - EPCOS (1k pullup)
 // 52 is 200k thermistor - ATC Semitec 204GT-2 (1k pullup)
 // 55 is 100k thermistor - ATC Semitec 104GT-2 (Used in ParCan) (1k pullup)
+//
+// 80 is QU-BD thermistor as found in QU-BD silicone bed 
 
 #define TEMP_SENSOR_0 6
 #define TEMP_SENSOR_1 0
