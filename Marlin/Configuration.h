@@ -71,7 +71,7 @@
 // 4 is 10k thermistor !! do not use it for a hotend. It gives bad resolution at high temp. !!
 // 5 is 100K thermistor - ATC Semitec 104GT-2 (Used in ParCan) (4.7k pullup)
 // 6 is 100k EPCOS - Not as accurate as table 1 (created using a fluke thermocouple) (4.7k pullup)
-// 7 is 100k Honeywell thermistor 135-104LAG-J01 (4.7k pullup)
+// 7 is 100k Honeywell thermistor 135-104LAG-J01 (4.7k pullup) - Bilby CNC 100k
 // 8 is 100k 0603 SMD Vishay NTCS0603E3104FXT (4.7k pullup)
 // 9 is 100k GE Sensing AL03006-58.2K-97-G1 (4.7k pullup)
 // 10 is 100k RS thermistor 198-961 (4.7k pullup)
@@ -281,7 +281,7 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 // default settings 
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {88,88,2268,108.3}  // default steps per unit for ultimaker 
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {88,88,2268,115}  // default steps per unit for ultimaker 
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 5, 45}    // (mm/sec)    
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 
