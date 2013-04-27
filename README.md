@@ -29,13 +29,27 @@ Close the Arduino IDE and then copy the file avrdude.conf from the sanguino1284p
 
 Start the Arduino IDE and you should now see 'Sanguino W/ ATmega644P' AND 'Sanguino W/ ATmega1284P' options in the Tools->Board menu.
 
-
 #Step 4
 
-For the standard Solidoodle 2 model with the 644P microcontroller, upload the firmware as is and select the 'Sanguino W/ ATmega644P' option.
+If you have a Solidoodle 2, then the firmware is already setup for you by default.
 
+If you have a Solidodle 3, simply change line 15 in configuration.h from:
+
+```C
+#define SOLIDOODLE_VERSION 2
+```
+
+to:
+
+```C
+#define SOLIDOODLE_VERSION 3 
+```
 
 #Step 5
+
+For the standard Solidoodle 2/3 model with the 644P microcontroller, upload the firmware as is and select the 'Sanguino W/ ATmega644P' option.
+
+#Step 6
 
 If you're adding an SDSL SDCARD reader, or Panelolu LCD display and rotary encoder with SDSL, you will need to select the 'Sanguino W/ ATmega1284P' board. Please purchase a 1284P with a bootloader already in place.
 
